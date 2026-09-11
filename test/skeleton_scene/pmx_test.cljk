@@ -3,7 +3,7 @@
   kami-skeleton-scene Rust crate's `src/pmx.rs` `#[cfg(test)] mod
   tests` (deleted kotoba-lang/kami-engine PR #82). Byte-fixture
   construction runs on Clojure (JVM charsets); exercised via
-  `clojure -M:test`."
+  `kbb -M:test`."
   (:require [clojure.test :refer [deftest is testing]]
             [skeleton :as skeleton]
             [skeleton.math :as m]
