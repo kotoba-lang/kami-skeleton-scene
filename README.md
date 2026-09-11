@@ -87,7 +87,7 @@ Every applicable original Rust `#[test]` is ported 1:1, across `src/lib.rs`
 `src/vmd.rs`, and `src/pmx.rs`, plus a namespace-loads smoke test:
 
 ```
-clojure -M:test
+kbb -M:test
 ```
 
 **19 tests / 213 assertions, 0 failures, 0 errors.**
