@@ -2,7 +2,7 @@
   "Tests for `skeleton-scene.clip`, ported 1:1 from the original
   kami-skeleton-scene Rust crate's `src/clip.rs` `#[cfg(test)] mod
   tests` (deleted kotoba-lang/kami-engine PR #82)."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [skeleton-scene.clip :as clip]))
 
 (defn- idx [name]

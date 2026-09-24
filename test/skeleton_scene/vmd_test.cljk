@@ -4,7 +4,7 @@
   tests` (deleted kotoba-lang/kami-engine PR #82). Byte-fixture
   construction runs on Clojure (JVM `Shift_JIS` charset); this
   namespace's own tests are exercised via `kbb -M:test`."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [skeleton-scene.vmd :as vmd]))
 
 (defn- sjis-bytes

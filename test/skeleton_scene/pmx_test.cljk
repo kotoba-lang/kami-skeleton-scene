@@ -4,7 +4,7 @@
   tests` (deleted kotoba-lang/kami-engine PR #82). Byte-fixture
   construction runs on Clojure (JVM charsets); exercised via
   `kbb -M:test`."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [skeleton :as skeleton]
             [skeleton.math :as m]
             [skeleton-scene.pmx :as pmx]
