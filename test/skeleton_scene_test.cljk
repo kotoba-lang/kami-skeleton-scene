@@ -3,7 +3,7 @@
   kami-skeleton-scene Rust crate's `src/lib.rs` `#[cfg(test)] mod
   tests` and `tests/humanoid_parity.rs` (deleted kotoba-lang/kami-
   engine PR #82), plus a namespace-loads smoke test."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [skeleton-scene :as skeleton-scene]
             [skeleton :as skeleton]
             [scene :as scene]))
